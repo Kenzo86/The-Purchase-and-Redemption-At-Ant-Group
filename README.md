@@ -11,12 +11,12 @@ Analyzing the purchases and redemptions data from the Ant Group, and predicting 
 ##### Data
 A data set file that consists of 4 parts:
 1. User Profile Table: user_profile_table.csv
-2. User Balance Table(The Purchases and Redemptions Table): user_balance_table.csv
+2. User Balance Table(The Purchases and Redemptions Table): user_balance_table.csv, it contains over 2.8 million rows of user balances.
 3. Yields Rate Table: mfd_day_share_interest.csv
 4. Bank Offered Rate Table: mdf_bank_shilbor.csv
 
 Time Period: 2013.07.01 - 2014.08.31
-
+Since the data size is huge, so I compressed the folder, if you want to use the dataset for testing, please uncompress the folder.
 ##### Exploratory Data Analysis
 ###### Part 1: User Purchases and Redemptions
 1. The Daily Total Amount of Purchases and Redemptions
